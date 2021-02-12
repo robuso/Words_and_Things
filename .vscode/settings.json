@@ -7,5 +7,6 @@
         "latex",
         "plaintext",
         "html"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\olinr\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
 }
