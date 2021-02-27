@@ -8,6 +8,12 @@ h2 {
     color: rgb(36, 53, 85);
     font-family: "Noto Sans", sans-serif;
     margin-left: 4rem;
+    margin-right: 50%;
+}
+
+h2 a:hover, li:hover {
+    background-color: #ffd9d9;
+    background-clip: content-box;
 }
 
 p {
@@ -20,4 +26,12 @@ p {
 #indeed {
     font-family: "Noto Sans", sans-serif;
     font-size: 1.1rem;
+}
+
+li {
+    margin-left: 4rem;
+    margin-right: 50%;
+    font-size: 1rem;
+    font-family: "Noto Sans";
+    list-style-type: none;
 }
