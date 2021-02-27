@@ -11,10 +11,10 @@ h2 {
     margin-right: 50%;
 }
 
-h2 a:hover, li:hover {
+/* h2 a:hover, li:hover {
     background-color: #f7eaea46;
     background-clip: content-box;
-}
+} */
 
 p {
     font-size: 1rem;
@@ -45,4 +45,5 @@ li {
 li > p {
     margin-left: 1rem;
     font-size: .9rem;
+    margin-right: 1rem;
 }
