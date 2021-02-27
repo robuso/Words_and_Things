@@ -19,9 +19,13 @@ h2 {
 p {
     font-size: 1rem;
     font-family: "Noto Sans", serif;
-    margin-left: 5rem;
-    margin-right: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55rem;
+    text-align: justify;
+    line-height: 1.6rem;
 }
+
 
 #indeed {
     font-family: "Noto Sans", sans-serif;
@@ -46,4 +50,17 @@ li > p {
     margin-left: 1rem;
     font-size: .9rem;
     margin-right: 15rem;
+}
+
+html,body {
+    background-color:rgb(255, 252, 252);
+}
+
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+sub { 
+    top: 0.4em; 
 }
