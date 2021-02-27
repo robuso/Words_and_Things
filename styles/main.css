@@ -12,7 +12,7 @@ h2 {
 }
 
 h2 a:hover, li:hover {
-    background-color: #ffd9d9;
+    background-color: #f7eaea46;
     background-clip: content-box;
 }
 
@@ -30,8 +30,19 @@ p {
 
 li {
     margin-left: 4rem;
-    margin-right: 50%;
+    /* margin-right: 50%; */
     font-size: 1rem;
     font-family: "Noto Sans";
     list-style-type: none;
+}
+
+.footnotes li {
+    list-style-type: decimal;
+    margin-left: 3.5rem;
+    /* margin-right: 15rem; */
+}
+
+li > p {
+    margin-left: 1rem;
+    font-size: .9rem;
 }
